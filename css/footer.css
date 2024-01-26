@@ -1,0 +1,29 @@
+.background-footer {
+  background-color: #000;
+  height: 420px;
+}
+.footer-conteiner {
+  max-width: 1100px;
+  padding: 40px 0px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  color: #fff;
+  gap: 120px;
+}
+.background-footer img {
+  position: relative;
+  bottom: 60px;
+  left: 400px;
+}
+.footer-conteiner p {
+  font-size: 2rem;
+  margin-top: 00px;
+}
+.footer-conteiner ul {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 00px;
+  font-size: 2rem;
+}
