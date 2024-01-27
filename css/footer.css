@@ -27,3 +27,112 @@
   margin-top: 00px;
   font-size: 2rem;
 }
+@media (min-width: 992px) and (max-width: 1199px) {
+  .background-footer {
+    height: 630px;
+  }
+  .footer-conteiner {
+    max-width: 1000px;
+    padding: 40px 60px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    color: #fff;
+    gap: 110px;
+  }
+  .footer-conteiner p {
+    font-size: 2rem;
+    margin-top: 00px;
+  }
+  .footer-conteiner ul {
+    display: flex;
+    flex-direction: column;
+
+    gap: 10px;
+    margin-top: 00px;
+    font-size: 2rem;
+    grid-column: 1;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .background-footer {
+    height: 630px;
+  }
+  .footer-conteiner {
+    max-width: 1000px;
+    padding: 40px 60px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    color: #fff;
+    gap: 110px;
+  }
+  .footer-conteiner p {
+    font-size: 2rem;
+    margin-top: 00px;
+  }
+  .footer-conteiner ul {
+    display: flex;
+    flex-direction: column;
+
+    gap: 10px;
+    margin-top: 00px;
+    font-size: 2rem;
+    grid-column: 1;
+  }
+}
+@media (min-width: 576px) and (max-width: 767px) {
+  .background-footer {
+    height: 730px;
+  }
+  .footer-conteiner {
+    max-width: 600px;
+    padding: 40px 60px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    color: #fff;
+    gap: 90px;
+  }
+  .footer-conteiner p {
+    font-size: 1.7rem;
+    margin-top: 00px;
+  }
+  .footer-conteiner ul {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 00px;
+    font-size: 2rem;
+    grid-column: 1;
+  }
+}
+@media (max-width: 576px) {
+  .background-footer {
+    height: 600px;
+  }
+  .footer-conteiner {
+    max-width: 600px;
+    padding: 40px 60px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    gap: 90px;
+  }
+  .footer-conteiner p {
+    font-size: 1.3rem;
+    margin-top: 60px;
+  }
+  .footer-conteiner ul {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 00px;
+    font-size: 1.3rem;
+    grid-column: 1;
+  }
+  .detalhe-footer {
+    display: none;
+  }
+}

@@ -74,3 +74,180 @@ ul {
   border-radius: 8px;
   box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.66);
 }
+@media (min-width: 992px) and (max-width: 1199px) {
+  .experiencia-conteiner-section01 h1 {
+    font-size: 6rem;
+    text-transform: uppercase;
+    word-break: break-all;
+    max-width: 3ch;
+    line-height: 100px;
+    text-shadow: 2px 1px 4px rgba(0, 0, 0, 0.89);
+    padding-left: 10px;
+  }
+  .experiencia-conteiner-section01 .p01 {
+    font-size: 1.2rem;
+    grid-row: 1;
+    grid-column: 2;
+    word-break: break-all;
+    max-width: 50ch;
+    margin-left: 0px;
+  }
+  .projetos-conteiner {
+    display: grid;
+    grid-column: 2;
+    margin-top: -250px;
+    margin-left: 0px;
+  }
+  .projetos {
+    display: grid;
+    margin-bottom: 90px;
+    margin-left: 0px;
+    gap: 10px;
+  }
+  .projetos h4,
+  ul {
+    font-size: 0.9rem;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .experiencia-conteiner-section01 h1 {
+    font-size: 6rem;
+    text-transform: uppercase;
+    word-break: break-all;
+    max-width: 3ch;
+    line-height: 100px;
+    text-shadow: 2px 1px 4px rgba(0, 0, 0, 0.89);
+    padding-left: 10px;
+  }
+  .experiencia-conteiner-section01 .p01 {
+    font-size: 1rem;
+    grid-row: 1;
+    grid-column: 2;
+    word-break: break-all;
+    max-width: 50ch;
+    margin-left: 0px;
+  }
+  .projetos-conteiner {
+    display: grid;
+    grid-column: 2;
+    margin-top: -250px;
+    margin-left: 0px;
+  }
+  .projetos {
+    display: grid;
+    margin-bottom: 90px;
+    margin-left: 0px;
+    gap: 10px;
+  }
+  .projetos h4,
+  ul {
+    font-size: 0.9rem;
+  }
+  .projetos ul {
+    font-size: 0.8rem;
+  }
+}
+@media (min-width: 576px) and (max-width: 767px) {
+  .experiencia-conteiner-section01 {
+    margin-left: 20px;
+    max-width: 600px;
+    padding: 40px 0px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+  }
+  .experiencia-conteiner-section01 h1 {
+    position: relative;
+    bottom: 200px;
+    font-size: 3rem;
+    text-transform: uppercase;
+    word-break: normal;
+    max-width: auto;
+    line-height: 100px;
+    text-shadow: 2px 1px 4px rgba(0, 0, 0, 0.89);
+    padding-left: 20px;
+  }
+  .experiencia-conteiner-section01 .p01 {
+    position: relative;
+    bottom: 200px;
+    font-size: 1rem;
+    grid-row: 1;
+    grid-column: 2;
+    word-break: break-all;
+    max-width: 50ch;
+    margin-left: 20px;
+    margin-bottom: 100px;
+  }
+  .projetos-conteiner {
+    display: grid;
+    grid-column: 2;
+    margin-top: -250px;
+    margin-left: 20px;
+  }
+  .projetos {
+    display: grid;
+    margin-bottom: 90px;
+    margin-left: 0px;
+    gap: 10px;
+  }
+  .projetos h4,
+  ul {
+    font-size: 0.9rem;
+  }
+  .projetos ul {
+    font-size: 0.8rem;
+  }
+}
+@media (max-width: 576px) {
+  .experiencia-conteiner-section01 {
+    margin-left: 20px;
+    max-width: 600px;
+    padding: 40px 0px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+  }
+  .experiencia-conteiner-section01 h1 {
+    position: relative;
+    bottom: 200px;
+    font-size: 2.4rem;
+    text-transform: uppercase;
+    word-break: normal;
+    max-width: auto;
+    line-height: auto;
+    text-shadow: 2px 1px 4px rgba(0, 0, 0, 0.89);
+    padding-left: 20px;
+  }
+  .experiencia-conteiner-section01 .p01 {
+    position: relative;
+    bottom: 200px;
+    font-size: 0.9rem;
+    word-break: break-all;
+    max-width: 38ch;
+    margin-left: 20px;
+    margin-bottom: 100px;
+  }
+  .projetos-conteiner {
+    display: grid;
+    grid-column: 2;
+    margin-top: -250px;
+    margin-left: 20px;
+  }
+  .projetos {
+    display: grid;
+    margin-bottom: 90px;
+    margin-left: 0px;
+    gap: 10px;
+  }
+  .projetos h4,
+  ul {
+    font-size: 0.9rem;
+  }
+  .projetos ul {
+    padding-left: 30px;
+    align-items: center;
+    max-width: max-content;
+    flex-direction: column;
+    font-size: 0.9rem;
+  }
+}

@@ -9,7 +9,7 @@
   grid-template-columns: 1fr 2fr;
   gap: 100px;
   margin: 0 auto;
-  align-items: center;
+  align-items: start;
   margin-bottom: 5rem;
 }
 .h1-e-p-principal h1 {
@@ -21,8 +21,133 @@
   font-size: 1.3rem;
 }
 .detalhe {
-  position: absolute;
+  position: relative;
   z-index: -1;
-  top: 300px;
-  right: 950px;
+  top: 100px;
+  right: 30px;
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  .img-lobo {
+    width: 330px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .conteudo-principal {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    max-width: 1000px;
+    margin-left: auto;
+    padding-left: 20px;
+    margin-right: 30px;
+  }
+  .h1-e-p-principal h1 {
+    margin-top: -130px;
+    font-size: 4.4rem;
+    line-height: 80px;
+    margin-bottom: 20px;
+    margin-left: -20px;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .img-lobo {
+    width: 260px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .conteudo-principal {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    max-width: 1000px;
+    margin-left: auto;
+    padding-left: 20px;
+    margin-right: 30px;
+  }
+  .h1-e-p-principal h1 {
+    margin-top: -130px;
+    font-size: 3.5rem;
+    line-height: 60px;
+    margin-bottom: 20px;
+    margin-left: -60px;
+  }
+  .detalhe {
+    position: relative;
+    z-index: -1;
+    top: -50px;
+    right: 90px;
+    width: 100px;
+  }
+}
+@media (min-width: 576px) and (max-width: 767px) {
+  .img-lobo {
+    width: 200px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .conteudo-principal {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    max-width: 600px;
+    margin-left: auto;
+    padding-left: 20px;
+    margin-right: 30px;
+    margin-bottom: 200px;
+  }
+  .h1-e-p-principal h1 {
+    margin-top: -130px;
+    font-size: 2.3rem;
+    line-height: 40px;
+    margin-bottom: 20px;
+    margin-left: -60px;
+  }
+  .detalhe {
+    position: relative;
+    z-index: -1;
+    top: -50px;
+    right: 90px;
+    width: 100px;
+  }
+  .h1-e-p-principal p {
+    margin-left: -60px;
+    font-size: 1.3rem;
+  }
+}
+@media (max-width: 576px) {
+  .img-lobo {
+    max-width: 100px;
+    height: auto;
+    display: block;
+  }
+  .conteudo-principal {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    padding-left: 20px;
+    margin-right: 30px;
+    margin-bottom: 200px;
+  }
+  .h1-e-p-principal h1 {
+    margin-top: -60px;
+    font-size: 1.9rem;
+    line-height: 27px;
+    margin-bottom: 20px;
+    margin-left: -60px;
+  }
+  .detalhe {
+    position: relative;
+    z-index: -1;
+    top: -23px;
+    right: 70px;
+    width: 50px;
+  }
+  .h1-e-p-principal p {
+    margin-top: -10px;
+    margin-left: -60px;
+    font-size: 1.1rem;
+  }
 }
